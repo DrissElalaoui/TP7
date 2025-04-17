@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>TP5</title>
+</head>
+<body>
+    <header>
+        <h1>Welcom In My Form</h1>
+    </header>
+    <section>
+        <div class="section">
+            <h3>Registration</h3>
+            <hr>
+            <form class="form1" action="page.php" method="post">
+                <div class="principal">
+                    <div class="part1">
+                        <div class="name">
+                            <label for="name">Full Name</label>
+                            <input autofocus type="text" name="Name" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="name">
+                            <label for="email">Email*</label>
+                            <input type="email" name="Email" id="email" required placeholder="Enter your email">
+                        </div>
+                        <div class="name">
+                            <label for="passwod">Password*</label>
+                            <input required type="password" name="Password" id="passwod" placeholder="Enter your passwod">
+                        </div>
+                     </div>   
+                    <div class="part2">
+                            <div class="name">
+                                <label for="username">Username</label>
+                                <input type="text" name="Username" id="username" placeholder="Enter your username">
+                            </div>
+                            <div class="name">
+                                <label for="name">Phone Number*</label>
+                                <input required type="text" name="Phone_Number" id="name" placeholder="Enter your number">
+                            </div>
+                            <div class="name">
+                                <label for="name">Confirm your passwod*</label>
+                                <input required type="password" name="Confirm_passwod" id="name" placeholder="Confirm your passwod">
+                            </div>
+                    </div>
+                </div>
+                <input class="submit" name="Valide"  type="submit" value="Valide">
+            </form>   
+        </div>
+    </section>
+</body>
+</html>
